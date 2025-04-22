@@ -1,13 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Version>1.0.0.0</Version>
+		<Authors>Steen F. Tøttrup</Authors>
+		<Company>CreativeMinds Aps</Company>
+		<Description>Searching the public Finish company database</Description>
+		<Copyright>Copyright 2023 (C) CreativeMinds Aps. All rights reserved.</Copyright>
+		<PackageLicenseUrl>https://www.creativeminds.dk/license</PackageLicenseUrl>
+		<PackageProjectUrl>https://github.com/CreativeMindsDK/prhdata</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/CreativeMindsDK/prhdata</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.4" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Http" Version="9.0.4" />
+	</ItemGroup>
 
 </Project>
